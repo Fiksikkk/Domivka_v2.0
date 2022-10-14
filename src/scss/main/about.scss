@@ -1,0 +1,97 @@
+.about {
+    padding-top: 5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    .media {
+        display: none;
+    }
+}
+
+.about-left {
+    display: grid;
+    grid-auto-rows: 2fr 1fr;
+    justify-items: center;
+    line-height: 1;
+    border-right: solid 2px black ;
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+.about-name {
+    width: 80%;
+    .mobile {
+        display: none;
+    }
+    h2 {
+        padding-top: 1em;
+        font-size: larger;
+        line-height: 1.5;
+    
+    }
+}
+.about-right {
+    padding-top: 8em;
+}
+
+.about-bottom {
+    height: 15em;
+}
+
+
+ //КНОПКА BTNREQUEST 
+
+.btnrequest {
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 3em;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    align-self: center;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.third {
+    color: black;
+    box-shadow: 0 0 40px 40px #9ea39c inset, 0 0 0 0 #9ea39c;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+}
+
+.third:hover {
+    box-shadow: 0 0 10px 0 #81847d inset, 0 0 10px 4px #81847d;
+}
+
+.about-right-btn {
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+.btnrequest p {
+    text-decoration-color: black;
+}
+
+ // КНОПКА BTNREQUEST
+
+
+.logo {
+    padding-top: 1em;
+    img{
+        max-width: 100%;
+    }
+}

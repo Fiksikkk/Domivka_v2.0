@@ -1,0 +1,29 @@
+
+.stages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+    div:first-child {
+        margin-bottom: 1em;
+    }
+}
+
+.stage {
+    width: 42em;
+    margin: 1em 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5em;
+    h1 {
+        text-align: top;
+        font-size: 5em;
+    }
+    h3 {
+        text-align: left;
+        font-size: 1.5em;
+    }
+}

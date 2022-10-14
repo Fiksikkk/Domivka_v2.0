@@ -1,0 +1,21 @@
+@import "nullstyles";
+@import "header";
+@import "./main/main";
+@import "./modules/slick";
+@import "./modules/smothText";
+
+
+body {
+    margin: 0 5%;
+    background-color: #f1f0ec;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #bac1b9;
+    padding: 2em 0 0.5em 0;
+}
+
+@import "./adaptive/adaptive";

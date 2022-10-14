@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+  body {
+    margin: 0;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .request-form {
+    margin: 3em 25% 5em 25%;
+    width: 50%;
+  }
+  .slider__item img,
+  .slider {
+    width: 45vw;
+  }
+  .wrap1 {
+    padding-left: 5%;
+  }
+  .description {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    img {
+      height: 5em;
+      padding: 0.5em;
+    }
+  }
+
+  .container {
+    min-height: calc(100vh - 36px);
+    padding: 0 0 2em 0;
+  }
+
+  .about {
+    display: block;
+    padding: 0;
+    .media {
+      padding: 2em 2em 0 2em;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .about-name {
+    margin-left: 10%;
+    border-top: 2px solid black;
+    .mobile {
+      display: block;
+      font-size: 1.6em;
+    }
+    .desktop {
+      display: none;
+    }
+    .partition {
+      margin-top: 1.5em;
+    }
+    h2 {
+      font-size: larger;
+    }
+  }
+  .about-name-first {
+    display: none;
+  }
+  .about-left {
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+    .logo {
+      padding: 0;
+    }
+  }
+  .about-right {
+    padding-top: 2em;
+    h2 {
+      font-size: 1em;
+    }
+    .partition {
+      margin-left: 10%;
+      width: 80%;
+    }
+  }
+
+  .about-right-btn {
+    padding-top: 1em;
+  }
+  .partition {
+    margin-top: 1em;
+    height: 1px;
+    display: block;
+    border-top: 2px solid black;
+  }
+  .services {
+    margin: 0;
+    display: block;
+  }
+  .paragraphs {
+    display: block;
+  }
+  .paragraph {
+    width: auto;
+    margin: 0.5em;
+  }
+  .paragraph-icon img {
+    width: 64px;
+    height: 64px;
+    padding: 0.5em;
+  }
+  .paragraph-text {
+    width: 100%;
+    font-size: larger;
+  }
+
+  .proects {
+    display: flex;
+    flex-direction: column;
+    div:nth-of-type(3) {
+      order: 4;
+    }
+  }
+  .proects-header {
+    margin: 0;
+  }
+
+  .wrapper {
+    width: 90vw;
+    margin: 2em 3.5%;
+  }
+
+  .description {
+    padding-top: 2em;
+  }
+
+  .stage {
+    width: 80%;
+    margin: 0;
+    h1 {
+      font-size: 2.5em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+  }
+
+  .request {
+    padding-top: 3em;
+  }
+  .request-form {
+    padding: 10% 10%;
+    margin: 1em 1em 5em 1em;
+    width: auto;
+    span {
+      font-size: large;
+    }
+  }
+
+  .media {
+    gap: 1em;
+  }
+  .menu_logo {
+    position: absolute;
+  }
+  @import "hamburgerMenu";
+}

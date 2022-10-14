@@ -1,0 +1,109 @@
+.request-top h3 {
+  margin: 0 1em;
+}
+
+.request-form {
+  margin: 3em 30% 5em 30%;
+  width: 40%;
+  justify-content: center;
+  padding: 3em 2em 2em 2em;
+  border: 2px solid black;
+  border-radius: 15px;
+  span {
+    font-size: larger;
+  }
+  input[type="text"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 1em;
+    box-sizing: border-box;
+    margin: 1em 0;
+    resize: vertical;
+    background-color: #f1f0ec;
+  }
+  button[type="button"] {
+    border: 3px solid #81847d;
+    background-color: #bac1b9;
+    margin-top: 1em;
+    padding: 1em 2em;
+    border-radius: 1em;
+    cursor: pointer;
+    &:hover {
+      background-color: #9ea39c;
+    }
+    span {
+      font-weight: bold;
+      color: black;
+    }
+  }
+  .connect-text {
+    padding-top: 1em;
+  }
+}
+
+#request-form__error-message {
+  margin-top: 3em;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  gap: 2em;
+  a {
+    text-decoration: none;
+    color: #333333;
+    i {
+      font-size: 3em;
+    }
+    &:first-child i {
+      font-size: 2.4em;
+    }
+  }
+}
+
+.fa-instagram:hover {
+  color: #e1306c;
+}
+
+.fa-telegram:hover {
+  color: #2aabee;
+}
+
+.fa-whatsapp:hover {
+  color: #25d366;
+}
+
+.fa-phone:hover {
+  color: #128c7e;
+}
+
+.fa-envelope:hover {
+  color: #ea4335;
+}
+
+.up {
+  display: grid;
+  width: 3em;
+  height: 3em;
+  background-color: lightgrey;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1em;
+  left: 1em;
+  z-index: 1000;
+  text-decoration: none;
+  border: 5px solid #42474b;
+  i {
+    font-size: 2em;
+    align-self: center;
+    justify-self: center;
+    color: #42474b;
+  }
+}
+
+

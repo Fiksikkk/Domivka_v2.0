@@ -1,0 +1,37 @@
+
+.proects {
+    display: grid;
+    grid-template-areas:
+        "A A"
+        "B C"
+        "E D";
+}
+
+.proects-header {
+    grid-area: A;
+    margin-bottom: 2em;
+}
+
+.des1{
+    grid-area: B;
+}
+
+.wrap1 {
+    grid-area: C;
+    margin-bottom: 5em;
+}
+
+.des2{
+    grid-area: D;
+}
+
+.wrap2 {
+    grid-area: E;
+    width: 45vw
+
+}
+
+.description {
+    padding-top: 20%;
+    margin-bottom: 2em;
+}

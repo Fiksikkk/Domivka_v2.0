@@ -1,0 +1,22 @@
+main {
+    padding-top: 5em;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.container {
+    height: max-content;
+    text-align: center;
+    background-color: #bac1b9;
+    padding-bottom: 5em;
+    padding-top: 2em;
+}
+
+.request {
+    padding-bottom: 0;
+}
+@import "about";
+@import "services";
+@import "projects";
+@import "stages";
+@import "request";
